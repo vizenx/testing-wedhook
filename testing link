@@ -1,0 +1,3 @@
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -H "Content-Type: application/json" \
+  -d '{"content":"Program it","description":"<div><em>Try that new language!</em></div>","due_on":"2016-05-01"}' \
+  https://3.basecampapi.com/$ACCOUNT_ID/buckets/1/todolists/3/todos.json
